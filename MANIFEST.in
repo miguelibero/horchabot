@@ -1,0 +1,6 @@
+include LICENSE
+include horchabot/schema.sql
+graft horchabot/static
+graft horchabot/templates
+graft tests
+global-exclude *.pyc
