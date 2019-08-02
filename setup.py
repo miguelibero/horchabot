@@ -24,6 +24,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'flask>~1.1.1',
+        'numpy',
+        #'opencv-python'
     ],
     extras_require={
         "test":[
